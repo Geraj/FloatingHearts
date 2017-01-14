@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\AndroidWS\\FloatingHearts\\app\\build\\intermediates\\res\\merged\\debug\\raw\\recording2.m4a",
+        "source": "D:\\AndroidWS\\FloatingHearts\\app\\src\\main\\res\\raw\\recording2.m4a"
+    },
+    {
+        "merged": "D:\\AndroidWS\\FloatingHearts\\app\\build\\intermediates\\res\\merged\\debug\\raw\\recording3.m4a",
+        "source": "D:\\AndroidWS\\FloatingHearts\\app\\src\\main\\res\\raw\\recording3.m4a"
+    },
+    {
+        "merged": "D:\\AndroidWS\\FloatingHearts\\app\\build\\intermediates\\res\\merged\\debug\\raw\\recording1.m4a",
+        "source": "D:\\AndroidWS\\FloatingHearts\\app\\src\\main\\res\\raw\\recording1.m4a"
+    },
+    {
+        "merged": "D:\\AndroidWS\\FloatingHearts\\app\\build\\intermediates\\res\\merged\\debug\\raw\\recording4.m4a",
+        "source": "D:\\AndroidWS\\FloatingHearts\\app\\src\\main\\res\\raw\\recording4.m4a"
+    },
+    {
+        "merged": "D:\\AndroidWS\\FloatingHearts\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bubble_pop.wav",
+        "source": "D:\\AndroidWS\\FloatingHearts\\app\\src\\main\\res\\raw\\bubble_pop.wav"
+    }
+]

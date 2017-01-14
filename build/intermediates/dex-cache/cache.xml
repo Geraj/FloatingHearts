@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\AndroidWS\Lab7_GraphicsLab\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78cf8a4041099f02bd0c3c004d488399a9834112">
+        <dex dex="D:\AndroidWS\Lab7_GraphicsLab\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d672b62f83a2e3f1bb39e9cecf5bbb6d15e26841\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidWS\Lab7_GraphicsLab\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3a85317270c446b5f300bb576b3b4cd475dab2cd">
+        <dex dex="D:\AndroidWS\Lab7_GraphicsLab\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_df362f9dd29b4d42155219ed414be2519db54abf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidWS\FloatingHearts\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed2e866a656d8c82994ddfb66e7e873a9c20c152">
+        <dex dex="D:\AndroidWS\FloatingHearts\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_45e043939fd08a066211ea22f4da88603d845423\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidWS\FloatingHearts\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="04e02cf0f61c014a8edbcb6156376cf969bd1898">
+        <dex dex="D:\AndroidWS\FloatingHearts\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a1090ff93fad74431a9b0db09fef327d77eceb75\classes.dex" />
+    </item>
+
+</items>

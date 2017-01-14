@@ -1,0 +1,7 @@
+#Sat Jan 14 19:16:55 EET 2017
+base.0=D\:\\AndroidWS\\FloatingHearts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a1090ff93fad74431a9b0db09fef327d77eceb75
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\AndroidWS\\FloatingHearts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_45e043939fd08a066211ea22f4da88603d845423\\classes.dex
+base.1=D\:\\AndroidWS\\FloatingHearts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_45e043939fd08a066211ea22f4da88603d845423
+file.0=D\:\\AndroidWS\\FloatingHearts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a1090ff93fad74431a9b0db09fef327d77eceb75\\classes.dex
