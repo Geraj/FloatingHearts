@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Kincsem</string>
-    <string name="quit_string">Kilep</string>
-    <string name="random_speed_mode_string">Szerii</string>
-    <string name="single_speed_mode_string">Puszi</string>
-    <string name="still_mode_string">Cica - mica</string>
-</resources>
