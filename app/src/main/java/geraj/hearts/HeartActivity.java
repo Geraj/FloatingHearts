@@ -30,14 +30,11 @@ import course.labs.graphicslab.R;
 
 public class HeartActivity extends Activity {
 
-    // These variables are for testing purposes, do not modify
     private final static int RANDOM = 0;
     private final static int SINGLE = 1;
     private final static int STILL = 2;
+    private static final String TAG = "Floating-Fearts";
     private static int speedMode = RANDOM;
-
-    private static final String TAG = "Lab-Graphics";
-
     // The Main view
     private RelativeLayout mFrame;
     private ImageView mImageView;
@@ -88,7 +85,7 @@ public class HeartActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-
+        speedMode = RANDOM;
         // Manage bubble popping sound
         // Use AudioManager.STREAM_MUSIC as stream type
 
@@ -254,6 +251,46 @@ public class HeartActivity extends Activity {
     // HeartView is a View that displays a heart.
     // This class handles animating, drawing, and popping amongst other actions.
     // A new HeartView is created for each bubble on the display
+
+    @Override
+    public void onBackPressed() {
+        openOptionsMenu();
+    }
+
+    // Do not modify below here
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
+
+        getMenuInflater().inflate(R.menu.menu, menu);
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu_still_mode:
+                speedMode = STILL;
+                return true;
+            case R.id.menu_single_speed:
+                speedMode = SINGLE;
+                return true;
+            case R.id.menu_random_mode:
+                speedMode = RANDOM;
+                return true;
+            case R.id.quit:
+                exitRequested();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private void exitRequested() {
+        super.onBackPressed();
+    }
 
     public class HeartView extends View {
 
@@ -452,45 +489,5 @@ public class HeartActivity extends Activity {
             }
             return false;
         }
-    }
-
-    // Do not modify below here
-
-    @Override
-    public void onBackPressed() {
-        openOptionsMenu();
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        super.onCreateOptionsMenu(menu);
-
-        getMenuInflater().inflate(R.menu.menu, menu);
-
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.menu_still_mode:
-                speedMode = STILL;
-                return true;
-            case R.id.menu_single_speed:
-                speedMode = SINGLE;
-                return true;
-            case R.id.menu_random_mode:
-                speedMode = RANDOM;
-                return true;
-            case R.id.quit:
-                exitRequested();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
-
-    private void exitRequested() {
-        super.onBackPressed();
     }
 }
