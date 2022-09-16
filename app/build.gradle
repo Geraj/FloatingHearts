@@ -1,13 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 18
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "geraj.hearts"
         minSdkVersion 14
-        targetSdkVersion 23
+        targetSdkVersion 33
     }
 
     buildTypes {
@@ -19,5 +18,5 @@ android {
 }
 
 dependencies {
-    androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.3.1'
+
 }
